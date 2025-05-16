@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Crystal_SMD")(type "KiCad")(uri "${KIPRJMOD}/Crystal_SMD.pretty")(options "")(descr ""))
+)
