@@ -51,71 +51,20 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "clearance|175420000|134870000|f3564287-ffac-4237-9b83-2b21cb13b964|d0bba59c-f5d5-4041-bd69-03e42f223a4c",
-          ""
-        ],
-        [
-          "clearance|179565000|131372500|1f4c3617-dc11-40b7-a04e-cdfa97139426|93b52f27-45a7-4237-814b-c7e6c55a8ca0",
-          ""
-        ],
-        [
-          "clearance|179615000|127772500|34fd747f-1e60-4e05-8dcd-14d8f96af844|0ca63010-c7b6-4b26-a7c5-0252c17d6299",
-          ""
-        ],
-        [
-          "clearance|179670000|134340000|47210d1f-dcb8-4978-aff5-8533ae22b916|3ec54125-3f6c-4e19-9cd3-bfb636b591ee",
-          ""
-        ],
-        [
-          "clearance|182925000|125625000|38f3a8ef-3b18-4209-87b2-a305c1dbbe0a|d08d831a-5e96-488b-b85c-67c0a590ac45",
-          ""
-        ],
-        [
-          "clearance|184315000|125535000|1f37435c-9b0b-474b-8acb-5f10d4075232|09dca74f-9179-45dd-ac2f-3646ec8879be",
-          ""
-        ],
-        [
-          "clearance|184575000|135052500|1baa115e-b054-43b7-9056-0c523e26d0ba|e855c34f-9f5a-4611-b29f-3852ad0463a2",
-          ""
-        ],
-        [
-          "clearance|185015000|125535000|cb59f53d-0bbb-4ec3-89f7-50ba91f12adc|d2d6a838-aa8f-4b07-82d4-da6a3395cc09",
-          ""
-        ],
-        [
-          "clearance|185265000|135052500|78e43903-a7e8-4857-bef6-d2df049957ff|eb63da4f-8a50-4547-9f57-4fa51a5d0c2e",
-          ""
-        ],
-        [
-          "clearance|186210000|125220000|dae5f03e-8bb5-4bf6-ab61-d9d7ffce04e3|a52d7e4d-0020-4aba-9653-fca89eb007dd",
-          ""
-        ],
-        [
-          "clearance|186790000|125590000|968b0cc7-ee8b-422c-8c34-c5acb17aaf52|0f24ed1a-a26b-460b-802f-e7d9cffbc147",
-          ""
-        ],
-        [
-          "clearance|187535000|125545000|20b47af6-6ce1-4b37-b360-a842b1a6dfc2|f62e318d-4e8c-49f1-a9de-374eb91feb72",
-          ""
-        ],
-        [
-          "clearance|189325000|127602500|fadc2a56-3cf1-4c0e-b712-8df4a5897665|10c02c1a-869c-442c-a054-192ed8eb9166",
-          ""
-        ],
-        [
-          "clearance|189325000|131202500|621ada41-b084-48c7-9011-5eb02a701d22|9ef0325b-2c4d-4e5c-93a2-64480ea1be81",
-          ""
-        ]
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -139,8 +88,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -238,7 +187,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -265,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -550,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/coope/Documents/GitHub/KiCAD-Projects/USB-Flash-Drive/Flash-Drive-GBR/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -561,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "C:\\Users\\coope\\Documents\\GitHub\\KiCAD-Projects\\USB-Flash-Drive\\USB-Flash-Drive-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
