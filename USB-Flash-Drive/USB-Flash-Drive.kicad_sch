@@ -3555,22 +3555,10 @@
 		(uuid "c5455907-73a8-41a4-bd01-b8f09cc9663e")
 	)
 	(junction
-		(at 189.23 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9087122-35d7-46b2-a176-417c8af62288")
-	)
-	(junction
 		(at 198.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad7afa8-bd12-4b94-9b96-7a4fc0de925c")
-	)
-	(junction
-		(at 189.23 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3f74a22-0cc0-47a5-847e-3466ade89730")
 	)
 	(junction
 		(at 132.08 44.45)
@@ -3927,16 +3915,6 @@
 			(type default)
 		)
 		(uuid "3d421f4e-5c11-4ecc-a4e1-512b269d889e")
-	)
-	(wire
-		(pts
-			(xy 181.61 55.88) (xy 189.23 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3defa7d9-b0ef-4bdd-90e8-3f5058185e69")
 	)
 	(wire
 		(pts
@@ -6452,75 +6430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55a52aa1-5e9f-4452-be71-38dec955bea1")
-		(property "Reference" "R1"
-			(at 190.246 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.6K"
-			(at 189.23 54.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.452 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sfr-e.pdf"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77c00685-c8a4-426c-8e4f-5cc80a39be18")
-		)
-		(pin "2"
-			(uuid "83de9f2f-c91c-4ab5-9b32-9585b04f8301")
-		)
-		(instances
-			(project ""
-				(path "/438ca9ba-d7f8-445e-a601-5624c38ab204"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 58.42 41.91 0)
 		(unit 1)
@@ -6860,7 +6769,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 63.5 0)
+		(at 181.61 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6869,7 +6778,7 @@
 		(fields_autoplaced yes)
 		(uuid "70809711-297d-4c95-ba3b-2b7dcb60d1b8")
 		(property "Reference" "#PWR012"
-			(at 189.23 69.85 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 68.58 0)
+			(at 181.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 63.5 0)
+			(at 181.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 63.5 0)
+			(at 181.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 63.5 0)
+			(at 181.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117"
+		(property "Value" "AMS1117-3.3"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -8434,75 +8343,6 @@
 			(project ""
 				(path "/438ca9ba-d7f8-445e-a601-5624c38ab204"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9f01b0f-372a-466e-b546-24057440722f")
-		(property "Reference" "R2"
-			(at 185.166 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 189.23 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.452 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sfr-e.pdf"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be720bc7-0587-4f7d-9506-f2a2aa71cfa2")
-		)
-		(pin "2"
-			(uuid "f667f4b3-13a2-40bf-8c89-1a0dda06e9bb")
-		)
-		(instances
-			(project ""
-				(path "/438ca9ba-d7f8-445e-a601-5624c38ab204"
-					(reference "R2")
 					(unit 1)
 				)
 			)
