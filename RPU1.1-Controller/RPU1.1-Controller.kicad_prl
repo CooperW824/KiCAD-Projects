@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -49,17 +49,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffbff7_f7ff5f7d",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "USB-Flash-Drive.kicad_prl",
+    "filename": "RPU1.1-Controller.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,14 +89,14 @@
     "col_widths": [
       222,
       207,
-      137,
+      136,
       92,
-      137,
-      137,
-      137,
+      136,
+      136,
+      136,
       98,
-      137,
-      137
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
