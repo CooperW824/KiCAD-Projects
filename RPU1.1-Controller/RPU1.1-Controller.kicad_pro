@@ -235,28 +235,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1409700|1549400|d88bb651-42f5-48f1-adff-1f9166dc83db|00000000-0000-0000-0000-000000000000|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/e594ebe1-36c3-41a2-9159-6fe5124015d3|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/e594ebe1-36c3-41a2-9159-6fe5124015d3|",
-        "Power comes from Q1"
-      ],
-      [
-        "power_pin_not_driven|1473200|876300|1ace8371-90ec-4722-a18f-e991339e3a0c|00000000-0000-0000-0000-000000000000|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|",
-        "R3 Provides Power"
-      ],
-      [
-        "power_pin_not_driven|1841500|698500|987330dc-7545-4aa9-a5e4-7ef8c01f56d2|00000000-0000-0000-0000-000000000000|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|",
-        "Ignored: L1 Provides"
-      ],
-      [
-        "power_pin_not_driven|698500|889000|4bc2771d-0a2a-4997-8ed0-5e59d90ae59b|00000000-0000-0000-0000-000000000000|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/9b072bf5-81c8-4e52-a40d-b473d9ec0315|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/9b072bf5-81c8-4e52-a40d-b473d9ec0315|",
-        "Ignored: Power is recieved from inductor"
-      ],
-      [
-        "power_pin_not_driven|711200|698500|5c769a1e-acf9-4a3d-a2a3-015beea15718|00000000-0000-0000-0000-000000000000|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|/5093cdd4-d702-4c8b-ac42-803bd3b345c9/b7b8c496-530e-445f-8604-8cc6d1b28959|",
-        "Ignored: Symbol Provides Power"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -470,6 +449,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
